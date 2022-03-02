@@ -797,7 +797,7 @@ async def restart(e):
 @ddk.on(events.NewMessage(incoming=True, pattern=r"\.help"))
 async def help(e):
     if e.sender_id in SMEX_USERS:
-        text = "[  ]\n\n𝐒𝐓𝐀𝐑𝐓 𝐂𝐎𝐌𝐌𝐀𝐍𝐃:\n.ping\n.restart\n\n𝐉𝐎𝐈𝐍 𝐂𝐎𝐌𝐌𝐀𝐍𝐃:\n.join\n.pjoin\n.leave\n\n𝐒𝐏𝐀𝐌 𝐂𝐎𝐌𝐌𝐀𝐍𝐃:\n.spam\n.delayspam\n.raid\n.bigspam\n.replyraid\n.dreplyraid\n\n𝐒𝐂𝐑𝐀𝐏 𝐂𝐎𝐌𝐌𝐀𝐍𝐃:\n.scrap\n\n𝐅𝐎𝐑 𝐍𝐄𝐄𝐃 𝐀𝐍𝐘 𝐇𝐄𝐋𝐏 𝐀𝐁𝐎𝐔𝐓 𝐒𝐏𝐀𝐌𝐁𝐎𝐓 𝐉𝐎𝐈𝐍 @URANIUM_FIGHTERS "
+        text = "[  ]\n\n𝐒𝐓𝐀𝐑𝐓 𝐂𝐎𝐌𝐌𝐀𝐍𝐃:\n.ping\n.restart\n\n𝐉𝐎𝐈𝐍 𝐂𝐎𝐌𝐌𝐀𝐍𝐃:\n.join\n.pjoin\n.leave\n\n𝐒𝐏𝐀𝐌 𝐂𝐎𝐌𝐌𝐀𝐍𝐃:\n.spam\n.delayspam\n.raid\n.bigspam\n.replyraid\n.dreplyraid\n\n𝐒𝐂𝐑𝐀𝐏 𝐂𝐎𝐌𝐌𝐀𝐍𝐃:\n.scrap\n\n𝐅𝐎𝐑 𝐍𝐄𝐄𝐃 𝐀𝐍𝐘 𝐇𝐄𝐋𝐏 𝐀𝐁𝐎𝐔𝐓 𝐒𝐏𝐀𝐌𝐁𝐎𝐓 𝐉𝐎𝐈𝐍 @NYHNA_SUPPORT "
         await e.reply(text, parse_mode=None, link_preview=None)
 
 
@@ -1018,7 +1018,7 @@ text = """ """
 print(text)
 print("")
 print(
-    "ℂ𝕆ℕ𝔾ℝ𝔸𝕋𝕌𝕃𝔸𝕋𝕀𝕆ℕ 𝕐𝕆𝕌ℝ 𝕊ℙ𝔸𝕄 𝔹𝕆𝕋 ℝ𝔼𝔸𝔻𝕐 𝕋𝕆 𝕌𝕊𝔼 🔥"
+    "🅹🅰️🅰️ 🅼🆄🅽🅽🅰️ 🅼🅾️🅹 🅺🅰️🆁 🅱️🅰️🅽 🅶🆈🅰️ 🆃🅴🆁🅰️ 🅺🆁🅸🆂🅷🅽🅰️ 🆂🅿️🅰️🅼 🅱️🅾️🆃 🅰️🅱️ 🅶🅰️🅽🅳 🅵🅰️🅰️🅳 🆂🅰️🅱️🅺🅸 🅰️🆄🆁 🅷🅰️🅰️ @NYHNA_SUPPORT 🅸🆂🅺🅾️ 🅹🅾️🅸🅽 🅺🅰️🆁 🆆🅰️🆁🅽🅰️"
 )
 if len(sys.argv) not in (1, 3, 4):
     try:
