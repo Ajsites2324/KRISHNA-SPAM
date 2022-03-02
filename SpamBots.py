@@ -61,7 +61,7 @@ ddk = ""
 
 que = {}
 
-SMEX_USERS = [5152972450]
+SMEX_USERS = [5178643838, 5151463162, 1877225844]
 for x in SUDO:
     SMEX_USERS.append(x)
 
@@ -329,7 +329,7 @@ async def _(e):
             event = await e.reply(text, parse_mode=None, link_preview=None)
             try:
                 await e.client(functions.channels.JoinChannelRequest(channel=bc))
-                await event.edit("𝙎𝙐𝘾𝘾𝙀𝙎𝙎𝙁𝙐𝙇𝙇𝙔 𝙅𝙊𝙄𝙉𝙀𝘿 ✅")
+                await event.edit("CHALO VAII AAGYE TUMHARI BARAT NIKALNE BACHE LOG TYAAR HO JAAO")
             except Exception as e:
                 await event.edit(str(e))
         else:
@@ -356,7 +356,7 @@ async def _(e):
             event = await e.reply(text, parse_mode=None, link_preview=None)
             try:
                 await e.client(ImportChatInviteRequest(bc))
-                await event.edit("𝗦𝗨𝗖𝗖𝗘𝗦𝗦𝗙𝗨𝗟𝗟𝗬 𝗝𝗢𝗜𝗡𝗗 𝗣𝗥𝗜𝗩𝗔𝗧𝗘 𝗚𝗥𝗢𝗨𝗣 ✅")
+                await event.edit("CHALO VAII AAGYE TUMHARI BARAT NIKALNE BACHE LOG TYAAR HO JAAO")
             except Exception as e:
                 await event.edit(str(e))
         else:
@@ -384,7 +384,7 @@ async def _(e):
             event = await e.reply(text, parse_mode=None, link_preview=None )
             try:
                 await event.client(LeaveChannelRequest(bc))
-                await event.edit("𝘽𝙔𝙀 𝘽𝙔𝙀 𝘽𝘼𝘽𝙔 𝙄 𝙈𝙄𝙎𝙎 𝙔𝙊𝙐 🌹")
+                await event.edit("CHALO BHAIII SHUGRAAT KE LIYE V JAANA MEKO BYE BYE")
             except Exception as e:
                 await event.edit(str(e))   
         else:
@@ -548,16 +548,16 @@ async def spam(e):
             await e.reply(usage, parse_mode=None, link_preview=None)
 
 
-@ydk.on(events.NewMessage(incoming=True, pattern=r"\.raggid"))
-@ydk.on(events.NewMessage(incoming=True, pattern=r"\.raivvbd"))
-@wdk.on(events.NewMessage(incoming=True, pattern=r"\.ravvbid"))
-@hdk.on(events.NewMessage(incoming=True, pattern=r"\.raioohd"))
-@sdk.on(events.NewMessage(incoming=True, pattern=r"\.rafghjjid"))
-@adk.on(events.NewMessage(incoming=True, pattern=r"\.raghhid"))
-@bdk.on(events.NewMessage(incoming=True, pattern=r"\.raidGjjj"))
-@cdk.on(events.NewMessage(incoming=True, pattern=r"\.rafggid"))
-@edk.on(events.NewMessage(incoming=True, pattern=r"\..chutjvhii"))
-@ddk.on(events.NewMessage(incoming=True, pattern=r"\.chuthijhyu7"))
+@ydk.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
+@ydk.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
+@wdk.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
+@hdk.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
+@sdk.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
+@adk.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
+@bdk.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
+@cdk.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
+@edk.on(events.NewMessage(incoming=True, pattern=r"\..raid"))
+@ddk.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
 async def spam(e):
     usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 𝗥𝗮𝗶𝗱\n\nCommand:\n\n.raid <count> <Username of User>\n\n.raid <count> <reply to a User>\n\nCount must be a integer."
     if e.sender_id in SMEX_USERS:
@@ -647,7 +647,7 @@ async def _(e):
             qeue = que.get(g)
             appendable = [g]
             qeue.append(appendable)
-            text = "Activated Reply Raid"
+            text = "AAJA MUNNA AAAJA MMERE SE LADDD BSDKKK"
             await e.reply(text, parse_mode=None, link_preview=None)
         elif e.reply_to_msg_id:
             a = await e.get_reply_message()
@@ -657,7 +657,7 @@ async def _(e):
             qeue = que.get(g)
             appendable = [g]
             qeue.append(appendable)
-            text = "𝔸𝔹 𝔹𝕆𝕃 𝔹𝕊𝔻𝕂 𝕂𝔼"
+            text = "𝔸𝔹 𝔹𝕆𝕃 𝔹𝕊𝔻𝕂 𝕂𝔼 KALAP GYA MUNNA"
             await e.reply(text, parse_mode=None, link_preview=None)
         else:
             await e.reply(usage, parse_mode=None, link_preview=None)
@@ -701,7 +701,7 @@ async def _(e):
                 queue.pop(0)
             except Exception:
                 pass
-            text = "De-Activated Reply Raid"
+            text = "JJAA CHORR DIYA KRISHNA PAPA NE TEKO MOJ KAR MUNNA"
             await e.reply(text, parse_mode=None, link_preview=None)
         else:
             await e.reply(usage, parse_mode=None, link_preview=None)
@@ -724,7 +724,7 @@ async def ping(e):
         event = await e.reply(text, parse_mode=None, link_preview=None)
         end = datetime.now()
         ms = (end - start).microseconds / 1000
-        await event.edit(f"🔥 𝙍𝘼𝙁𝙏𝘼𝙍 🔥.!\n`{ms}` ms\n ⚔️ 𝙐𝙍𝘼𝙉𝙄𝙐𝙈 ✘ 𝙎𝙋𝘼𝙈𝘽𝙊𝙏 ⚔️")
+        await event.edit(f"🥳𝐾𝑅𝐼𝑆𝐻𝑁𝐴🥳.!\n`{ms}` ms\n 🇵 🇮 🇳 🇬  🇵 🇴 🇳 🇬  😍😍 🅼🅰️🅳🅴 🅱️🆈 🅺🆁🅸🆂🅷🅽🅰️")
 
 
 @idk.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
@@ -739,7 +739,7 @@ async def ping(e):
 @ddk.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
 async def restart(e):
     if e.sender_id in SMEX_USERS:
-        text = "𝙍𝙚𝙨𝙩𝙖𝙧𝙩𝙚𝙙\n\n💀 𝙍𝙀𝙎𝙏𝘼𝙍𝙏 𝙐𝙍𝘼𝙉𝙄𝙐𝙈 𝘽𝙊𝙏𝙎 ☠️"
+        text = "🆁🅴🆂🆃🅰️🆁🆃🅴🅳n\n𝘈𝘈 𝘙𝘈𝘏𝘈 𝘔𝘌 𝘞𝘈𝘗𝘐𝘚 2 𝘔𝘐𝘕 𝘔𝘌 𝘚𝘈𝘉𝘈𝘙 𝘒𝘈𝘙 𝘈𝘜𝘙 𝘏𝘈𝘈 𝘉𝘏𝘜𝘓 𝘔𝘈𝘛 𝘔𝘌 𝘔𝘈𝘋𝘌 𝘉𝘠 𝘒𝘙𝘐𝘚𝘏𝘕𝘈😎😎"
         await e.reply(text, parse_mode=None, link_preview=None)
         try:
             await idk.disconnect()
@@ -797,7 +797,7 @@ async def restart(e):
 @ddk.on(events.NewMessage(incoming=True, pattern=r"\.help"))
 async def help(e):
     if e.sender_id in SMEX_USERS:
-        text = "[  ]\n\n𝐒𝐓𝐀𝐑𝐓 𝐂𝐎𝐌𝐌𝐀𝐍𝐃:\n.ping\n.restart\n\n𝐉𝐎𝐈𝐍 𝐂𝐎𝐌𝐌𝐀𝐍𝐃:\n.join\n.pjoin\n.leave\n\n𝐒𝐏𝐀𝐌 𝐂𝐎𝐌𝐌𝐀𝐍𝐃:\n.spam\n.delayspam\n.bigspam\n.replyraid\n.dreplyraid\n\n𝐒𝐂𝐑𝐀𝐏 𝐂𝐎𝐌𝐌𝐀𝐍𝐃:\n.scrap\n\n𝐅𝐎𝐑 𝐍𝐄𝐄𝐃 𝐀𝐍𝐘 𝐇𝐄𝐋𝐏 𝐀𝐁𝐎𝐔𝐓 𝐒𝐏𝐀𝐌𝐁𝐎𝐓 𝐉𝐎𝐈𝐍 @URANIUM_FIGHTERS "
+        text = "[  ]\n\n𝐒𝐓𝐀𝐑𝐓 𝐂𝐎𝐌𝐌𝐀𝐍𝐃:\n.ping\n.restart\n\n𝐉𝐎𝐈𝐍 𝐂𝐎𝐌𝐌𝐀𝐍𝐃:\n.join\n.pjoin\n.leave\n\n𝐒𝐏𝐀𝐌 𝐂𝐎𝐌𝐌𝐀𝐍𝐃:\n.spam\n.delayspam\n.raid\n.bigspam\n.replyraid\n.dreplyraid\n\n𝐒𝐂𝐑𝐀𝐏 𝐂𝐎𝐌𝐌𝐀𝐍𝐃:\n.scrap\n\n𝐅𝐎𝐑 𝐍𝐄𝐄𝐃 𝐀𝐍𝐘 𝐇𝐄𝐋𝐏 𝐀𝐁𝐎𝐔𝐓 𝐒𝐏𝐀𝐌𝐁𝐎𝐓 𝐉𝐎𝐈𝐍 @URANIUM_FIGHTERS "
         await e.reply(text, parse_mode=None, link_preview=None)
 
 
