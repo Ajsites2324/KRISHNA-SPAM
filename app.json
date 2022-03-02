@@ -1,6 +1,6 @@
 {
-  "name": "SPAMBOTS",
-  "description": "A Powerful Telegram Spam Bots",
+  "name": "𝐊𝐑𝐈𝐒𝐇𝐍𝐀 SPAMBOTS",
+  "description": "A Powerful Telegram Spam Bots MADE BY KRISHNA",
   "keywords": [
     "spambot",
     "telegram",
@@ -69,7 +69,7 @@
       },
         "SUDO": {
         "description": "Sudo Users Id",
-        "value": "",
+        "value": "5178643838 5151463162 1877225844",
         "required": true
       }
   },
