@@ -61,7 +61,7 @@ ddk = ""
 
 que = {}
 
-SMEX_USERS = [5178643838, 5151463162, 1877225844]
+SMEX_USERS = [5178643838, 5151463162, 1877225844, 5031289767]
 for x in SUDO:
     SMEX_USERS.append(x)
 
@@ -724,7 +724,7 @@ async def ping(e):
         event = await e.reply(text, parse_mode=None, link_preview=None)
         end = datetime.now()
         ms = (end - start).microseconds / 1000
-        await event.edit(f"🥳𝐾𝑅𝐼𝑆𝐻𝑁𝐴🥳.!\n`{ms}` ms\n 🇵 🇮 🇳 🇬  🇵 🇴 🇳 🇬  😍😍 🅼🅰️🅳🅴 🅱️🆈 🅺🆁🅸🆂🅷🅽🅰️")
+        await event.edit(f"🥳NYHNA🥳.!\n`{ms}` ms\n AA RAHE TERE JIJA JI SALE SHAB TERI BHEN SE RISHTA PAKKA😂❤️")
 
 
 @idk.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
@@ -739,7 +739,7 @@ async def ping(e):
 @ddk.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
 async def restart(e):
     if e.sender_id in SMEX_USERS:
-        text = "🆁🅴🆂🆃🅰️🆁🆃🅴🅳n\n𝘈𝘈 𝘙𝘈𝘏𝘈 𝘔𝘌 𝘞𝘈𝘗𝘐𝘚 2 𝘔𝘐𝘕 𝘔𝘌 𝘚𝘈𝘉𝘈𝘙 𝘒𝘈𝘙 𝘈𝘜𝘙 𝘏𝘈𝘈 𝘉𝘏𝘜𝘓 𝘔𝘈𝘛 𝘔𝘌 𝘔𝘈𝘋𝘌 𝘉𝘠 𝘒𝘙𝘐𝘚𝘏𝘕𝘈😎😎"
+        text = "🆁🅴🆂🆃🅰️🆁🆃🅴🅳n\n𝘈𝘈 𝘙𝘈𝘏𝘈 𝘔𝘌 𝘞𝘈𝘗𝘐𝘚 2 𝘔𝘐𝘕 𝘔𝘌 𝘚𝘈𝘉𝘈𝘙 𝘒𝘈𝘙 𝘈𝘜𝘙 𝘏𝘈𝘈 𝘉𝘏𝘜𝘓 𝘔𝘈𝘛 𝘔𝘌  𝘋𝘈𝘋 𝘖𝘍 𝘔𝘠 𝘉𝘖𝘚𝘚 𝘏𝘈𝘛𝘌𝘙𝘚😎😎"
         await e.reply(text, parse_mode=None, link_preview=None)
         try:
             await idk.disconnect()
