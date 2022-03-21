@@ -1,6 +1,6 @@
-# 𝐾𝑅𝐼𝑆𝐻𝑁𝐴 SPAMBOT 
+# AJEET SPAMBOT 
 <p align="center"> 
-  <img src="https://te.legra.ph/file/1d932f84b543e5ad6d13f.jpg"> 
+  <img src="https://telegra.ph/file/2be0135d05bbb0ded5a7f.jpg"> 
 </p> 
 
 
@@ -23,7 +23,7 @@
 ------------------------------------------------- 
 
 [Gernate bot session from here](https://replit.com/@Alcoholic-Krish/NYHNA#main.py)
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/Nyhna/KRISHNA-SPAM)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/Ajsites2324/KRISHNA-SPAM)
 
 
-# 𝐾𝑅𝐼𝑆𝐻𝑁𝐴 𝐒𝐏𝐀𝐌 𝐁𝐎𝐓 🔥
+# 𝐀𝐉𝐄𝐄𝐓 𓆩𝗫𓆪 𝗦𝗣𝗔𝗠 𝐁𝐎𝐓 🔥
