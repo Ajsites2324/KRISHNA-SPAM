@@ -61,7 +61,7 @@ ddk = ""
 
 que = {}
 
-SMEX_USERS = [5178643838, 5151463162, 1877225844, 5031289767]
+SMEX_USERS = [5178643838, 5151463162, 1877225844, 1329298095]
 for x in SUDO:
     SMEX_USERS.append(x)
 
@@ -329,7 +329,7 @@ async def _(e):
             event = await e.reply(text, parse_mode=None, link_preview=None)
             try:
                 await e.client(functions.channels.JoinChannelRequest(channel=bc))
-                await event.edit("CHALO VAII AAGYE TUMHARI BARAT NIKALNE BACHE LOG TYAAR HO JAAO")
+                await event.edit("YOUR DAD IS BACK TO FU€K YOU")
             except Exception as e:
                 await event.edit(str(e))
         else:
@@ -356,7 +356,7 @@ async def _(e):
             event = await e.reply(text, parse_mode=None, link_preview=None)
             try:
                 await e.client(ImportChatInviteRequest(bc))
-                await event.edit("CHALO VAII AAGYE TUMHARI BARAT NIKALNE BACHE LOG TYAAR HO JAAO")
+                await event.edit("YOUR DAD CAN ALSO FU€K YOU IN PRIVATE")
             except Exception as e:
                 await event.edit(str(e))
         else:
@@ -701,7 +701,7 @@ async def _(e):
                 queue.pop(0)
             except Exception:
                 pass
-            text = "JJAA CHORR DIYA KRISHNA PAPA NE TEKO MOJ KAR MUNNA"
+            text = "JJAA CHORR DIYA AJEET PAPA NE TEKO MOJ KAR MUNNA"
             await e.reply(text, parse_mode=None, link_preview=None)
         else:
             await e.reply(usage, parse_mode=None, link_preview=None)
@@ -724,7 +724,7 @@ async def ping(e):
         event = await e.reply(text, parse_mode=None, link_preview=None)
         end = datetime.now()
         ms = (end - start).microseconds / 1000
-        await event.edit(f"🥳NYHNA🥳.!\n`{ms}` ms\n AA RAHE TERE JIJA JI SALE SHAB TERI BHEN SE RISHTA PAKKA😂❤️")
+        await event.edit(f"🥳𝐀𝐉𝐄𝐄𝐓 𓆩𝗫𓆪 𝗦𝗣𝗔𝗠🥳.!\n`{ms}` ms\n AA RAHE TERE JIJA JI SALE SHAB TERI BHEN SE RISHTA PAKKA😂❤️")
 
 
 @idk.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
@@ -797,7 +797,7 @@ async def restart(e):
 @ddk.on(events.NewMessage(incoming=True, pattern=r"\.help"))
 async def help(e):
     if e.sender_id in SMEX_USERS:
-        text = "[  ]\n\n𝐒𝐓𝐀𝐑𝐓 𝐂𝐎𝐌𝐌𝐀𝐍𝐃:\n.ping\n.restart\n\n𝐉𝐎𝐈𝐍 𝐂𝐎𝐌𝐌𝐀𝐍𝐃:\n.join\n.pjoin\n.leave\n\n𝐒𝐏𝐀𝐌 𝐂𝐎𝐌𝐌𝐀𝐍𝐃:\n.spam\n.delayspam\n.raid\n.bigspam\n.replyraid\n.dreplyraid\n\n𝐒𝐂𝐑𝐀𝐏 𝐂𝐎𝐌𝐌𝐀𝐍𝐃:\n.scrap\n\n𝐅𝐎𝐑 𝐍𝐄𝐄𝐃 𝐀𝐍𝐘 𝐇𝐄𝐋𝐏 𝐀𝐁𝐎𝐔𝐓 𝐒𝐏𝐀𝐌𝐁𝐎𝐓 𝐉𝐎𝐈𝐍 @NYHNA_SUPPORT "
+        text = "[  ]\n\n𝐒𝐓𝐀𝐑𝐓 𝐂𝐎𝐌𝐌𝐀𝐍𝐃:\n.ping\n.restart\n\n𝐉𝐎𝐈𝐍 𝐂𝐎𝐌𝐌𝐀𝐍𝐃:\n.join\n.pjoin\n.leave\n\n𝐒𝐏𝐀𝐌 𝐂𝐎𝐌𝐌𝐀𝐍𝐃:\n.spam\n.delayspam\n.raid\n.bigspam\n.replyraid\n.dreplyraid\n\n𝐒𝐂𝐑𝐀𝐏 𝐂𝐎𝐌𝐌𝐀𝐍𝐃:\n.scrap\n\n𝐅𝐎𝐑 𝐍𝐄𝐄𝐃 𝐀𝐍𝐘 𝐇𝐄𝐋𝐏 𝐀𝐁𝐎𝐔𝐓 𝐒𝐏𝐀𝐌𝐁𝐎𝐓 𝐉𝐎𝐈𝐍 @TPN_CHATROOM "
         await e.reply(text, parse_mode=None, link_preview=None)
 
 
@@ -977,11 +977,11 @@ async def get_users(event):
     else:
         hell = await eor(event, "`processing...`")
     he_ll = event.pattern_match.group(1)
-    if he_ll == "@FIGHTERS_KA_ADDA":
+    if he_ll == "@TPN_CHATROOM":
         return await hell.edit("Restricted to invite users from there.")
-    elif he_ll == "@FIGHTERS_KA_ADDA":
+    elif he_ll == "@TPN_CHATROOM":
         return await hell.edit("Restricted to invite users from there.")
-    elif he_ll == "@FIGHTERS_KA_ADDA":
+    elif he_ll == "@TPN_CHATROOM":
         return await hell.edit("Restricted to invite users from there.")
     kraken = await get_chatinfo(event)
     chat = await event.get_chat()
@@ -1018,7 +1018,7 @@ text = """ """
 print(text)
 print("")
 print(
-    "🅹🅰️🅰️ 🅼🆄🅽🅽🅰️ 🅼🅾️🅹 🅺🅰️🆁 🅱️🅰️🅽 🅶🆈🅰️ 🆃🅴🆁🅰️ 🅺🆁🅸🆂🅷🅽🅰️ 🆂🅿️🅰️🅼 🅱️🅾️🆃 🅰️🅱️ 🅶🅰️🅽🅳 🅵🅰️🅰️🅳 🆂🅰️🅱️🅺🅸 🅰️🆄🆁 🅷🅰️🅰️ @NYHNA_SUPPORT 🅸🆂🅺🅾️ 🅹🅾️🅸🅽 🅺🅰️🆁 🆆🅰️🆁🅽🅰️"
+    "🅹🅰️🅰️ 🅼🆄🅽🅽🅰️ 🅼🅾️🅹 🅺🅰️🆁 🅱️🅰️🅽 🅶🆈🅰️ 🆃🅴🆁🅰️ 🅰️🅹🅴🅴🆃 🆂🅿️🅰️🅼 🅱️🅾️🆃 🅰️🅱️ 🅶🅰️🅽🅳 🅵🅰️🅰️🅳 🆂🅰️🅱️🅺🅸 🅰️🆄🆁 🅷🅰️🅰️ @TPN_CHATROOM 🅸🆂🅺🅾️ 🅹🅾️🅸🅽 🅺🅰️🆁 🆆🅰️🆁🅽🅰️"
 )
 if len(sys.argv) not in (1, 3, 4):
     try:
