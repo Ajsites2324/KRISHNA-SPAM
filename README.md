@@ -17,8 +17,8 @@
 
 ## 𝚂𝚄𝙿𝙿𝙾𝚁𝚃 
 
-<a href="https://t.me/Deadly_spam_bot"><img src="https://img.shields.io/badge/Join-SUPPORT%20GROUP-red.svg?logo=Telegram"></a> 
-<a href="https://t.me/Deadly_spambot"><img src="https://img.shields.io/badge/Join-SUPPORT%20CHANNEL-red.svg?logo=Telegram"></a> 
+<a href="https://t.me/TPN_Chatroom"><img src="https://img.shields.io/badge/Join-SUPPORT%20GROUP-red.svg?logo=Telegram"></a> 
+<a href="https://t.me/The_professor_network"><img src="https://img.shields.io/badge/Join-SUPPORT%20CHANNEL-red.svg?logo=Telegram"></a> 
 
 ------------------------------------------------- 
 
